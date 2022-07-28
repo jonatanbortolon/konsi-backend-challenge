@@ -1,0 +1,13 @@
+########################################################################################
+# Requires REST Client extension                                                       #
+# Download link: https://marketplace.visualstudio.com/items?itemName=humao.rest-client #
+########################################################################################
+
+POST http://localhost:3333/api/benefits HTTP/1.1
+content-type: application/json
+
+{
+    "document": "",
+    "login": "",
+    "password": ""
+}
